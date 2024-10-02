@@ -1,0 +1,31 @@
+{
+  "name": "react-native-piwik-pro-sdk-example",
+  "description": "Example app for react-native-piwik-pro-sdk",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator='iPhone 14'",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@reduxjs/toolkit": "^1.8.6",
+    "react": "17.0.1",
+    "react-dom": "latest",
+    "react-native": "0.64.4",
+    "react-native-elements": "^3.4.2",
+    "react-native-safe-area-context": "^3.4.1",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-screens": "^3.9.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-redux": "^7.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/runtime": "^7.19.4",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "metro-react-native-babel-preset": "^0.73.2"
+  }
+}
